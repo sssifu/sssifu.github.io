@@ -1,0 +1,32 @@
+---
+layout: default
+---
+
+<div class="home">
+
+  {{ content }}
+
+  {%- if site.posts.size > 0 -%}
+  <img title="巴神镇楼" src="{{ "/assets/images/banner.jpg" | relative_url }}">
+    <!-- <h2 class="post-list-heading">{{ page.list_title | default: "文章列表" }}</h2> -->
+
+    <ul class="post-list">
+      {%- for post in site.posts -%}
+        {%- if post.publish == 1 -%}
+        <li>
+          {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+          <span class="post-meta">{{ post.date | date: date_format }}</span>
+          <h3>
+            <a class="post-link" href="{{ post.url | relative_url }}">
+              {{ post.title | escape }}
+            </a>
+          </h3>
+          <p class="post-excerpt">{{ post.content | strip_newlines | strip_html | truncate: 150 }}</p>
+        </li>
+        {%- endif -%}
+      {%- endfor -%}
+    </ul>
+
+  {%- endif -%}
+
+</div>
