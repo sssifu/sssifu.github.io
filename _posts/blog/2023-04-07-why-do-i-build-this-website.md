@@ -1,6 +1,7 @@
 ---
+id: 1
 layout: post
-title:  "思富网(sssifu)是如何诞生的？"
+title:  "思富网（sssifu）是如何诞生的？"
 date:   2023-04-07 20:00:52 +0800
 categories: blog
 type: "article"

@@ -1,4 +1,5 @@
 ---
+id: 2
 layout: post
 title:  "反思：为什么错过了chatGPT的一季度行情？"
 date:   2023-04-08 14:03:00 +0800
