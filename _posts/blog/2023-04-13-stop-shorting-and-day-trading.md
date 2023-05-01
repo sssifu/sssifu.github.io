@@ -1,8 +1,9 @@
 ---
-id: 4
+id: blog_4
 layout: post
 title:  "反思：坚决和做空、短线思维说不！"
 date:   2023-04-13 23:15:00 +0800
+author: Michael
 categories: blog
 type: "article"
 tags: 股票 交易

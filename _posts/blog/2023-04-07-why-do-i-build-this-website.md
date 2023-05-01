@@ -1,8 +1,9 @@
 ---
-id: 1
+id: blog_1
 layout: post
 title:  "思富网（sssifu）是如何诞生的？"
 date:   2023-04-07 20:00:52 +0800
+author: Michael
 categories: blog
 type: "article"
 publish: 1

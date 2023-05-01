@@ -1,8 +1,9 @@
 ---
-id: 3
+id: blog_3
 layout: post
 title:  "复盘2023年3月-4月美国地区性银行股危机"
 date:   2023-04-29 10:35:00 +0800
+author: Michael
 categories: blog
 type: "article"
 publish: 1
